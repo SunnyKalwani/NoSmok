@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoSmoK</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- BootStrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Google Fonts CDN -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Press+Start+2P&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/home"><img src="assets/NoSmok Logo.png" alt=""></a>
+
+            <!-- toggle button -->
+            <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar + toggle target -->
+            <div class="collapse navbar-collapse " id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link rounded active" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                            routerLinkActive="active">Reasons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded" routerLinkActive="active" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText">Tips</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NavBar End -->
+
+    <!-- Content -->
+    <div class="container-fluid text-center" id="bg">
+        <!-- Home Component -->
+        <div class="container-fluid p-3 py-5 my-5" id="home">
+            <div class="container row p-3 rounded shadow">
+                <div class="col-md-6 p-1">
+                    <img src="./../../../assets/home image.png" class="img rounded shadow">
+                </div>
+                <div class="col-md-6 p-1">
+                    <h1 class="m-1 p-1">Welcome to <span id="bold">No<span id="smok">Smok</span></span> </h1>
+                    <h3 class="m-1 p-1">Your Journey to <span id="smokefree">Smoke-Free</span> Living!</h3>
+                    <p class="m-1 p-1">🚭 Break free from the chains of smoking with our comprehensive app. Embrace a
+                        healthier, happier life as
+                        we guide you through the journey of quitting. Together, let's make every breath count.</p>
+                    <p class="m-1 p-1 hashtag"> #QuitSmoking
+                        #noSmokLife </p>
+                    <button class="m-1 p-2" routerLink="/reasons">Get Started!</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Content End -->
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-white fixed-bottom p-3" id="footer">
+        © 2023 Copyright:
+        <a class="text-success" href="https://sunnykalwani.com">SunnyKalwani.com</a>
+    </footer>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/f9d226791d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
