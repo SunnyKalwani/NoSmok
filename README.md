@@ -1,2 +1,2 @@
 # NoSmok
-Angular Application helping smokers quit smoking 
+Application helping smokers quit smoking 
