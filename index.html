@@ -25,7 +25,7 @@
     <!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top">
         <div class="container">
-            <a class="navbar-brand" routerLink="/home"><img src="assets/NoSmok Logo.png" alt=""></a>
+            <a class="navbar-brand"  href="index.html"><img src="assets/NoSmok Logo.png" alt=""></a>
 
             <!-- toggle button -->
             <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -37,16 +37,14 @@
             <div class="collapse navbar-collapse " id="navbarText">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                     <li class="nav-item">
-                        <a class="nav-link rounded active" data-bs-toggle="collapse"
-                            data-bs-target="#navbarText">Home</a>
+                        <a class="nav-link rounded active"  href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                            routerLinkActive="active">Reasons</a>
+                        <a class="nav-link rounded" href="reasons.html"
+                            >Reasons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link rounded" routerLinkActive="active" data-bs-toggle="collapse"
-                            data-bs-target="#navbarText">Tips</a>
+                        <a class="nav-link rounded" href="tips.html">Tips</a>
                     </li>
                 </ul>
             </div>
@@ -58,10 +56,10 @@
     <!-- Content -->
     <div class="container-fluid text-center" id="bg">
         <!-- Home Component -->
-        <div class="container-fluid p-3 py-5 my-5" id="home">
-            <div class="container row p-3 rounded shadow">
+        <div class="container-fluid text-center p-3 py-5 my-5" id="home">
+            <div class="container row p-3 rounded shadow py-5 my-5">
                 <div class="col-md-6 p-1">
-                    <img src="./../../../assets/home image.png" class="img rounded shadow">
+                    <img src="assets/home image.png" class="img rounded shadow">
                 </div>
                 <div class="col-md-6 p-1">
                     <h1 class="m-1 p-1">Welcome to <span id="bold">No<span id="smok">Smok</span></span> </h1>
@@ -69,9 +67,9 @@
                     <p class="m-1 p-1">🚭 Break free from the chains of smoking with our comprehensive app. Embrace a
                         healthier, happier life as
                         we guide you through the journey of quitting. Together, let's make every breath count.</p>
-                    <p class="m-1 p-1 hashtag"> #QuitSmoking
+                    <p class="m-1 p-1 mb-5 hashtag"> #QuitSmoking
                         #noSmokLife </p>
-                    <button class="m-1 p-2" routerLink="/reasons">Get Started!</button>
+                    <a class="m-1 p-2 my-5" href="reasons.html">Get Started!</a>
                 </div>
             </div>
 
@@ -82,7 +80,7 @@
 
 
     <!-- Footer -->
-    <footer class="text-center bg-white fixed-bottom p-3" id="footer">
+    <footer class="text-center   p-3" id="footer">
         © 2023 Copyright:
         <a class="text-success" href="https://sunnykalwani.com">SunnyKalwani.com</a>
     </footer>
